@@ -238,35 +238,73 @@ export default function Home() {
                     </div>
                     <div className="absolute top-1/2 mt-3 h-3 w-3 rounded-full bg-white shadow"></div>
                   </div>
-                  <div className="col-start-6 col-end-10 mr-auto rounded-xl pl-10 pt-12 lg:px-4">
-                    <h3 className="mb-1 text-xl font-medium">Traidify</h3>
-                    <p className="font-base text-sm text-gray-50">Freelance</p>
-                    <p className="mb-4 text-sm font-thin text-gray-50">
-                      2022 - present
-                    </p>
-                    <ul className="list-disc text-start text-[1em] font-light leading-tight">
-                      <li>
-                        Develop and create a web application for an educational
-                        trading platform.
-                      </li>
-                      <li>Utilizes React, Redux, Storybook and Material UI</li>
-                      <li>
-                        Create individual component for the charts using
-                        storybook.
-                      </li>
-                      <li>
-                        Integrates API and optimizes the quality of frontend
-                        components
-                      </li>
-                      <li>
-                        Works closely with backend-developers as well as
-                        designers
-                      </li>
-                      <li>
-                        Navigate and converts figma files into a web
-                        application.
-                      </li>
-                    </ul>
+                  <div className="col-start-6 col-end-10 mr-auto grid gap-6 rounded-xl pl-10 pt-12 lg:px-4">
+                    <div>
+                      <h3 className="mb-1 text-xl font-medium">Freelance</h3>
+                      <p className="text-sm font-thin text-gray-50">
+                        2022 - present
+                      </p>
+                    </div>
+                    <div>
+                      <p className="mb-2 text-base italic text-gray-50">
+                        Treelink Technologies
+                      </p>
+                      <ul className="list-disc text-start text-[1em] font-light leading-tight">
+                        <li>
+                          Develop admin and company website from scratch
+                          utilizing Next.js, TailwindCSS, Tanstack libraries and
+                          Zustand.
+                        </li>
+                        <li>
+                          Translates figma designs into a responsive website
+                          building it with mobile-first approach.
+                        </li>
+                        <li>
+                          Integrates API into the website as well as prepares
+                          the needed fields on the backend.
+                        </li>
+                        <li>Assists in deploying the website on AWS EC2.</li>
+                      </ul>
+                    </div>
+                    <div>
+                      <p className="mb-2 text-base italic text-gray-50">
+                        Cyram
+                      </p>
+                      <ul className="list-disc text-start text-[1em] font-light leading-tight">
+                        <li>
+                          Develop a responsive website using React.js, Astro.js
+                          and TailwindCSS.
+                        </li>
+                        <li>
+                          Working closely with the client wherein I identify and
+                          address the clients needs such as design and animation
+                          requests
+                        </li>
+                        <li>Deploy website using Vercel.</li>
+                      </ul>
+                    </div>
+                    <div>
+                      <p className="mb-2 text-base italic text-gray-50">
+                        Traidify
+                      </p>
+                      <ul className="list-disc text-start text-[1em] font-light leading-tight">
+                        <li>
+                          Develop and bugfix a web application for an
+                          educational trading platform.
+                        </li>
+                        <li>
+                          Utilizes React, Redux, Storybook and Material UI
+                        </li>
+                        <li>
+                          Create individual component for the charts using
+                          storybook.
+                        </li>
+                        <li>
+                          Integrates API and optimizes the quality of frontend
+                          components
+                        </li>
+                      </ul>
+                    </div>
                   </div>
                 </div>
                 <div className="flex flex-row-reverse text-end max-lg:text-start lg:contents">
